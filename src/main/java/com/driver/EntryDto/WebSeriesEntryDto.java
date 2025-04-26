@@ -28,6 +28,8 @@ public class WebSeriesEntryDto {
         this.productionHouseId = productionHouseId;
     }
 
+    public WebSeriesEntryDto(){}
+
     public String getSeriesName() {
         return seriesName;
     }
